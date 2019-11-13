@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# alias vlc=‘/Applications/VLC.app/Contents/MacOS/VLC’
+/Applications/VLC.app/Contents/MacOS/VLC -vvv /Users/matthewweston/Desktop/Tele\ Software/Project3/bin/playlist/ —-sout ‘#transcode{vcodec=mp4v,acodec=mpga,vb=2500,hq,ab=128}:standard{access=http,mux=ogg,dst=192.168.1.101:8080}’
