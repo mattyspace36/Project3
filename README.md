@@ -5,7 +5,10 @@ The stream shall be live via http protocol, and the quality must meet requiremen
 regular HD with standard framerate(720p, 30 fps). This requires a minimum bitrate of 2500
 kbps.
 
+
 Along side the stream a TCPDUMP must be initiated for network observation.
+
+When the videolive script is executed, it triggers a VLC stream at settings which meet the above requirements. Any videofile to be streamed is placed in the playlist folder, and the script will then commence to stream any files within that folder. 
 
 The video stream script is now complete. The format is as the following:
 
